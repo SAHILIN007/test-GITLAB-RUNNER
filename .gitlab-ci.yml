@@ -2,3 +2,6 @@ job1:
     script:
         - echo "job started.."
         - echo "hostname"
+    
+    tags:
+        - awslinux
