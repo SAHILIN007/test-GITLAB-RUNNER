@@ -1,7 +1,15 @@
 job1:
     script:
-        - echo "docker job started.."
-        - echo "hostname"
-    
+        - echo "job1 started.."
+        - sleep 30
+        -  hostname    
     tags:
-        - dockeraws
+        - docker
+
+job2:
+    script:
+        - echo "job2 started.."
+        - sleep 30
+        -  hostname    
+    tags:
+        - shell
