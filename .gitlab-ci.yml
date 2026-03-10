@@ -1,7 +1,7 @@
 job1:
     script:
-        - echo "job started.."
+        - echo "docker job started.."
         - echo "hostname"
     
     tags:
-        - awslinux
+        - dockeraws
