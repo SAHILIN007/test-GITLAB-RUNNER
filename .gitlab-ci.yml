@@ -4,4 +4,4 @@ job1:
         - echo "hostname"
     
     tags:
-        - aws-runner
+        - awslinux
