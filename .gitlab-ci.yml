@@ -1,6 +1,6 @@
 job1:
     script:
-        - echo "job1 started.."
+        - echo "CR7 job1 started.."
         - sleep 30
         -  hostname    
     tags:
