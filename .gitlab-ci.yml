@@ -4,7 +4,7 @@ job1:
         - sleep 30
         -  hostname    
     tags:
-        - docker
+        - aws
 
 job2:
     script:
@@ -12,4 +12,4 @@ job2:
         - sleep 30
         -  hostname    
     tags:
-        - shell
+        - myshell
