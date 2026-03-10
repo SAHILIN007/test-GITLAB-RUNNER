@@ -8,7 +8,7 @@ job1:
 
 job2:
     script:
-        - echo "job2 started.."
+        - echo "job2  started.."
         - sleep 30
         -  hostname    
     tags:
